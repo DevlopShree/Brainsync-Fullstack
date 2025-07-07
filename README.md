@@ -25,13 +25,7 @@ BrainSync/
 │
 └── .gitignore # Git ignored files
 
-yaml
-Always show details
-
-Copy
-
 ---
-
 
 ## 🚀 Tech Stack
 
@@ -48,7 +42,6 @@ Copy
 - RESTful API routes for users, todos, and shared content
 
 ---
-
 
 ## ⚙️ How to Run
 
