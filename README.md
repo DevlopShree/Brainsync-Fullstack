@@ -7,11 +7,11 @@ BrainSync is a full-stack productivity app designed to help users manage notes, 
 ## 📁 Project Structure
 
 BrainSync/
-│
-├── frontend/ # React (Vite) frontend app
-│ ├── public/ # Static assets (images, icons)
-│ ├── src/ # Source code (components, pages, context)
-│ ├── index.html # Main HTML file
+-│
+-├── frontend/ # React (Vite) frontend app
+-│ ├── public/ # Static assets (images, icons)
+-│ ├── src/ # Source code (components, pages, context)
+-│ ├── index.html # Main HTML file
 │ └── package.json # Frontend dependencies
 │
 ├── Backend/ # Express backend
