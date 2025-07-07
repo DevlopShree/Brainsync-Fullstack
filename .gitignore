@@ -1,0 +1,102 @@
+########################################
+# 🧠 CORE - NODE + VITE (Frontend & Backend)
+########################################
+
+# Node modules
+**/node_modules/
+
+# Vite build (Frontend)
+frontend/dist/
+
+# Express build (Backend, if using Babel/TypeScript later)
+backend/build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+**/.env
+**/.env.*     # .env.development, .env.local, etc.
+
+# Debugger files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+########################################
+# 📦 PACKAGE MANAGERS & LOCK FILES (optional to ignore)
+########################################
+
+# Optional: if you use multiple package managers and want to ignore unused ones
+# yarn.lock
+# pnpm-lock.yaml
+
+########################################
+# 📄 SYSTEM + CONFIG FILES
+########################################
+
+# Cache files
+**/.cache/
+**/.turbo/
+**/.parcel-cache/
+**/coverage/
+
+# TypeScript (if added later)
+*.tsbuildinfo
+
+# Lint & Format tools
+.eslintcache
+.prettierignore
+.prettierrc
+*.prettier*
+
+########################################
+# 🧪 TESTING (Jest/Vitest etc)
+########################################
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Vitest cache
+.vitest/
+
+# Cypress (if added for E2E testing)
+cypress/videos/
+cypress/screenshots/
+
+########################################
+# 🚀 DEPLOYMENT FILES (Vercel/Netlify)
+########################################
+
+# Vercel
+.vercel/
+
+# Netlify
+.netlify/
+
+# Firebase (if added later)
+.firebase/
+
+########################################
+# 🔒 SENSITIVE DATA (just in case)
+########################################
+
+*.pem
+*.key
+*.crt
+*.cert
+*.p12
+*.pfx
+*.bak
+*.sql
+*.sqlite
